@@ -1,0 +1,17 @@
+langchain
+langchain-community
+langchain-ollama
+python-dotenv
+tavily-python
+ollama
+dotenv
+jupyter
+ipykernel
+ddgs
+pandas
+typing-extensions
+langgraph-checkpoint-sqlite
+pylance
+pypdf
+fonttools
+langchain_openai
