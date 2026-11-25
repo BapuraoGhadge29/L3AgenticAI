@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+expenses.db
+05-expenses-ui-app/node_modules/
+05-expenses-ui-app/dist/
+05-expenses-ui-app/.env.local

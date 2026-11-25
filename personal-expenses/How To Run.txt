@@ -1,0 +1,27 @@
+1. Install Python dependencies
+
+PowerShell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+py -m pip install -r requirements.txt
+
+2. Start MCP server
+
+PowerShell
+py expenses_mcp_server.py
+
+3. Start REST API
+
+PowerShell
+py -m uvicorn expense_rest_api_server:app --reload --port 9005
+
+4. Start React UI
+
+PowerShell
+cd 05-expenses-ui-app
+npm install
+npm run dev
+
+5. Open application
+
+http://localhost:5173
